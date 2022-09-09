@@ -1,0 +1,21 @@
+body{
+    background-color: cornflowerblue;
+}
+.blueRectangle{
+    background-color: #50B8C7;
+    border-radius: 10%;
+    height: 50px;
+    width: 250px;
+}
+.rectanglrContainer{
+    background-color: cornflowerblue;
+    height: 250px;
+    width: 800px;
+    margin: 10em 0 0 45em
+}
+.fontStyle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
