@@ -13,7 +13,14 @@ body{
     width: 800px;
     margin: 10em 0 0 45em
 }
-.fontStyle{
+.mainFontStyle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.sideFontStyle{
     font-family: 'Courier New', Courier, monospace;
     font-size: 45px;
     font-weight: bold;
