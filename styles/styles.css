@@ -10,10 +10,8 @@ body{
 .topnav a {
     float: left;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
 }
 
 /* Change the color of links on hover */
@@ -28,6 +26,28 @@ body{
     color: white;
 }
 
+.searchField{
+    overflow: hidden;
+    margin: 5em auto;
+    height: 50px;
+    width: 1500px;
+    background-color: #333;
+    color: #c5bfdd;
+    font-size: 1.6em;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    caret-color: #c5bfdd;
+}
+
+
+.filterRectangle {
+    background-color: #333;
+    overflow: hidden;
+    height: 700px;
+    width: 1500px;
+    margin:10em auto;
+}
+
 .mainFontStyle{
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
@@ -39,4 +59,36 @@ body{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+}
+
+input::placeholder{
+    writing-mode: horizontal-tb !important;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-rendering: auto;
+    color: #c5bfdd;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: #333;
+    margin: 0;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: #333;
+    border-image: initial;
+}
+
+.beatmapResult{
+
+    margin: 0 0 0 50em;
+    overflow: hidden;
 }
