@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>osu! tourney db</title>
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css"/>
+</head>
+<body>
+<!-- Top Bar -->
+<header>
+    <div class="topnav">
+        <a class="active" href="main.html">
+            <div class="sideFontStyle">Home</div>
+        </a>
+        <a href="tournaments.html">
+            <div class="sideFontStyle">Tournaments</div>
+        </a>
+        <a href="About.html">
+            <div class="sideFontStyle">About</div>
+        </a>
+        <a href="Login.html">
+            <div class="sideFontStyle">Login</div>
+        </a>
+    </div>
+</header>
+
+<main>
+    <!-- Секция для вывода основной информации-->
+    <section>
+        <div class="firstRectangle">
+
+            <div class="icon">
+                <img src="/resources/star.png" alt="SR" width="50" height="50">
+                <img src="/resources/metronome.png" alt="BPM" width="50" height="50">
+                <img src="/resources/stopwatch.png" alt="Length" width="50" height="50">
+                <img src="/resources/dry-clean.png" alt="CS" width="50" height="50">
+                <img src="/resources/view.png" alt="AR" width="50" height="50">
+            </div>
+        </div>
+
+    <div class="secondRectangle">
+        <div class="container">
+
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="SR" >
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="BPM" >
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="Length" >
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="CS" >
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="AR" >
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="beatmapResult">
+        <a href="https://osu.ppy.sh/users/16260661">
+            <img src="https://assets.ppy.sh/beatmaps/456524/covers/cover.jpg" alt="pic1">
+        </a>
+        <a href="https://docs.google.com/spreadsheets/d/1AdX9tiY8dVPOW27MxA8M-TjPXiNgm7de5mqp1R6MqpE/edit#gid=1553327298">
+            <img src="https://assets.ppy.sh/beatmaps/1302335/covers/cover.jpg" alt="pic2">
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
