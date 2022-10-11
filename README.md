@@ -1,4 +1,8 @@
 # Web-Labs
 
 #### Макет сайта
-![web_maket](https://user-images.githubusercontent.com/71985277/188825337-1066d827-c9fc-45b5-892e-235499b000a2.png)
+![image](https://user-images.githubusercontent.com/71985277/194904243-92328105-7983-4781-b462-46e43b845135.png)
+![image](https://user-images.githubusercontent.com/71985277/194904258-1bc1ddfd-c714-4688-87c5-c60a79a9541a.png)
+![image](https://user-images.githubusercontent.com/71985277/194904275-d16cadfc-e1a1-459d-9a7b-0b3a20efc130.png)
+
+
